@@ -1,0 +1,11 @@
+.add-item {
+    width: 1000px;
+    height: 56px;
+    padding-left: 24px;
+    border-radius: 30px;
+    border: 2px solid var(--slate-900);
+    background-color: var(--slate-100);
+    outline: none;
+    box-shadow: 5px 5px var(--slate-900);
+    overflow: hidden;
+}
