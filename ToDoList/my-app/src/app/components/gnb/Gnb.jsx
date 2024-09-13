@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logoLarge from "../../../../public/logo-Large.png";
+import logoLarge from "../../../../public/img/logo-Large.png";
 import styles from "./Gnb.css";
 
 function Gnb() {

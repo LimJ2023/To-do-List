@@ -1,10 +1,8 @@
-import InputAddItem from "./components/search/InputAddItem";
-import AddBtn from "./components/btn/AddBtn";
+import TodoList from "./components/item-list/TodoList";
 export default function Home() {
     return (
         <main>
-            <InputAddItem />
-            <AddBtn />
+            <TodoList />
         </main>
     );
 }
