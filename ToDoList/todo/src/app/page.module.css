@@ -1,0 +1,167 @@
+.gnbBox {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid var(--slate-200);
+    width: 1920px;
+}
+
+.gnbBox .gnbLarge {
+    width: 1920px;
+}
+
+.gnbLogo {
+    margin-left: 280px;
+}
+
+.search {
+    width: 1000px;
+    height: 56px;
+    padding-left: 24px;
+    border-radius: 30px;
+    border: 2px solid var(--slate-900);
+    background-color: var(--slate-100);
+    outline: none;
+    box-shadow: 5px 5px var(--slate-900);
+    overflow: hidden;
+}
+.addBtn {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 24px;
+    top: 80px;
+}
+.listContainer {
+    width: 1000px;
+    margin-top: 20px;
+}
+.listContent {
+    margin-top: 20px;
+    display: flex;
+    gap: 70px;
+}
+/* 모든 아이템이 체크되었을 때 중앙정렬되는 것을 방지해줌 */
+.listContent ul {
+    min-width: 526px;
+}
+.listContent ul li {
+    margin-top: 15px;
+}
+.todoItem {
+    width: 527px;
+    height: 50px;
+    border: 2px solid var(--slate-900);
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 15px;
+    background-color: var(--slate-100);
+}
+.checkImg {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+/* 체크되었을 때 취소선과 배경색 */
+.checked {
+    text-decoration: line-through;
+    background-color: var(--violet-100);
+}
+.titles {
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+.itemLink {
+    text-decoration: none; /* 밑줄 제거 */
+    color: inherit; /* 부모 요소의 글자색 유지 */
+}
+
+.detailBox {
+    width: 996px;
+    height: 64px;
+    margin-top: 20px;
+    border: 2px solid var(--slate-900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    text-decoration: underline;
+    gap: 10px;
+}
+.imageUpload {
+    position: relative;
+    width: 384px;
+    height: 311px;
+    margin-top: 25px;
+    border: 2px dashed var(--slate-300);
+    border-radius: 24px;
+    background-color: var(--slate-50);
+}
+.imageContent {
+    position: absolute;
+    top: 110px;
+    left: 155px;
+}
+.uploadBtn {
+    position: absolute;
+    top: 125px;
+    left: 150px;
+    cursor: pointer;
+}
+.memoBox {
+    width: 588px;
+    height: 311px;
+    background-image: url("../../public/img/memo.png");
+    border-radius: 24px;
+    border: none;
+    text-align: center;
+}
+.memoBox p {
+    color: var(--amber-800);
+    margin: 15px 0 15px 0;
+}
+.memoBox textarea {
+    width: 400px;
+    height: 200px;
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+}
+.memoBox textarea::-webkit-scrollbar-button {
+    display: none; /* 스크롤바 버튼을 숨길 수 있습니다 */
+}
+.uploadContent {
+    display: flex;
+    align-items: center;
+}
+
+.deleteBtn {
+    background-color: var(--rose-500);
+}
+.btnBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.nameChange {
+    border: none;
+    outline: none;
+}
+.emptyTodo {
+    margin: 50px 0 0 150px;
+    text-align: center;
+}
+.emptyDone {
+    text-align: center;
+    margin: 50px 0 0 200px;
+}
+.listContent p {
+    color: var(--slate-400);
+}

@@ -14,9 +14,6 @@
     width: 32px;
     height: 32px;
 }
-.line-through {
-    text-decoration: line-through;
-}
 .check-box.checked {
     background-color: var(--violet-100);
 }

@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 :root {
     /* 공용 색상 */
     --slate-900: #0f172a;
@@ -7,6 +13,7 @@
     --slate-300: #cbd5e1;
     --slate-200: #e2e8f0;
     --slate-100: #f1f5f9;
+    --slate-50: #f8fafc;
     --violet-600: #7c3aed;
     --violet-100: #ede9fe;
     --rose-500: #f43f5e;
@@ -54,6 +61,13 @@ button {
 
 ul {
     list-style-type: none;
-    padding: 0; /* 기본 패딩 제거 */
-    margin: 0; /* 기본 마진 제거 */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    width: 1400px;
+    margin-top: 20px;
 }

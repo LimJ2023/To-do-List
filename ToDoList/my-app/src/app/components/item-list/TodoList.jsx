@@ -28,6 +28,7 @@ function TodoList() {
             setDoneItems([...doneItems, itemToMove]);
             setTodoItems(todoItems.filter((_, i) => i !== index));
         }
+        allItems.map((item) => {});
     };
 
     return (
