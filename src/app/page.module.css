@@ -165,3 +165,23 @@
 .listContent p {
     color: var(--slate-400);
 }
+
+/* 태블릿 화면일 때 */
+@media (max-width: 1024px) {
+    .gnbBox {
+        width: 100%; /* GNB 박스를 화면 너비에 맞게 조정 */
+    }
+
+    .search {
+        width: 50%; /* 검색창 너비를 줄임 */
+    }
+
+    .listContainer,
+    .listContent {
+        width: 100%; /* 목록 컨테이너도 화면에 맞게 조정 */
+    }
+
+    .titles {
+        gap: 20px; /* gap을 줄여 좁은 화면에 맞춤 */
+    }
+}

@@ -71,3 +71,70 @@ main {
     width: 1400px;
     margin-top: 20px;
 }
+
+/* 태블릿 화면 (768px 이상 1024px 이하) */
+@media (max-width: 1024px) {
+    main {
+        width: 90%; /* 메인 컨텐츠를 화면 너비에 맞게 줄임 */
+    }
+
+    .gnbBox {
+        width: 70%; /* GNB 박스를 화면 너비에 맞게 조정 */
+    }
+
+    .search {
+        width: 50%; /* 검색창 너비를 줄임 */
+    }
+
+    .listContainer,
+    .listContent {
+        width: 100%; /* 목록 컨테이너도 화면에 맞게 조정 */
+    }
+
+    .titles {
+        gap: 20px; /* gap을 줄여 좁은 화면에 맞춤 */
+    }
+
+    /* 버튼 크기 조정 */
+    button {
+        width: 140px;
+        height: 48px;
+    }
+}
+
+/* 스마트폰 화면 (768px 이하) */
+@media (max-width: 768px) {
+    main {
+        width: 100%; /* 메인 컨텐츠를 화면 전체로 채움 */
+        margin-top: 10px; /* 간격을 줄임 */
+    }
+
+    .gnbBox {
+        width: 100%; /* GNB 박스를 전체 너비로 */
+    }
+
+    .gnbLogo {
+        margin-left: 10px; /* 로고 마진을 줄임 */
+    }
+
+    .search {
+        width: 100%; /* 검색창을 화면 너비에 맞춤 */
+    }
+
+    .listContainer,
+    .listContent {
+        width: 100%; /* 목록 컨테이너를 좁은 화면에 맞춤 */
+        flex-direction: column; /* 목록을 세로로 정렬 */
+        gap: 10px; /* 간격을 줄임 */
+    }
+
+    .todoItem {
+        width: 100%; /* 할일 항목도 너비 조정 */
+    }
+
+    /* 버튼 크기 더 줄이기 */
+    button {
+        width: 120px;
+        height: 40px;
+    }
+}
